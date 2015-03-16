@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spectrumblue",
+  "name": "Spectrum Blue",
+  "description": "Various new items and blocks to make minecraft's already mystical and fun world that much more amazing! Oh and some other stuff too.",
+  "version": "0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["doopaderp"],
+  "credits": "pahimar for getting me started with modding",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
