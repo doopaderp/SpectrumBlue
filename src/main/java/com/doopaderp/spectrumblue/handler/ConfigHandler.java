@@ -1,6 +1,6 @@
 package com.doopaderp.spectrumblue.handler;
 
-import com.doopaderp.spectrumblue.reference.Reference;
+import com.doopaderp.spectrumblue.helpers.Reference;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -10,6 +10,8 @@ import java.io.File;
 public class ConfigHandler
 {
     public static Configuration configuration;
+    public static String generation = "Generation";
+    public static boolean enableGeneration;
     public static void init(File configFile)
     {
         if (configuration == null)
@@ -21,7 +23,8 @@ public class ConfigHandler
 
     private static void loadConfiguration()
     {
-        int testValue = configuration.getInt("Blue Seed Ore", "Ore Generation" ,1 ,0 ,9 , "");
+        configuration.addCustomCategoryComment(generation, "Everything ore generation related.");
+        enableGeneration = configuration.get(generation, "enableGeneration", true, "Enable MagnoSeed Ore generation").getBoolean(enableGeneration);
         if (configuration.hasChanged())
         {
                 configuration.save();
@@ -36,4 +39,5 @@ public class ConfigHandler
            loadConfiguration();
         }
     }
+
 }

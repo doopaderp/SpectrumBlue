@@ -1,0 +1,8 @@
+{
+"variants": {
+"facing=north": { "model": "spectrumblue:MagneticOrganizer" },
+"facing=south": { "model": "spectrumblue:MagneticOrganizer", "y": 180 },
+"facing=west":  { "model": "spectrumblue:MagneticOrganizer", "y": 270 },
+"facing=east":  { "model": "spectrumblue:MagneticOrganizer", "y": 90 }
+}
+}

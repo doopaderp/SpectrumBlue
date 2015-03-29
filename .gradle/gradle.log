@@ -8,9 +8,9 @@
 :extractMcpData
 :getVersionJson
 :extractUserDev
-:genSrgs SKIPPED
+Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8-11.14.1.1344/forge-1.8-11.14.1.1344-userdev.jar
+:genSrgs
 :extractNatives
-:copyNativesLegacy
 :getAssetsIndex
 :getAssets
 :makeStart
@@ -18,13 +18,22 @@
 :downloadClient SKIPPED
 :downloadServer SKIPPED
 :mergeJars SKIPPED
-:deobfuscateJar SKIPPED
-:decompile SKIPPED
-:processSources SKIPPED
-:remapJar SKIPPED
-:extractMinecraftSrc SKIPPED
-:recompMinecraft SKIPPED
-:repackMinecraft SKIPPED
+:deobfuscateJar
+Applying SpecialSource...
+Applying Exceptor...
+:decompile
+:processSources
+Injecting fml files
+Applying fml patches
+Applying forge patches
+:remapJar
+:extractMinecraftSrc
+:recompMinecraftNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:repackMinecraft
 :setupDecompWorkspace
 :ideaModule
 :ideaProject
@@ -33,4 +42,4 @@
 
 BUILD SUCCESSFUL
 
-Total time: 47.789 secs
+Total time: 5 mins 46.081 secs

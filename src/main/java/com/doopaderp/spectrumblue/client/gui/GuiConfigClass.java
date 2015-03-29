@@ -1,7 +1,7 @@
 package com.doopaderp.spectrumblue.client.gui;
 
 import com.doopaderp.spectrumblue.handler.ConfigHandler;
-import com.doopaderp.spectrumblue.reference.Reference;
+import com.doopaderp.spectrumblue.helpers.Reference;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;

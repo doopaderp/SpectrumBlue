@@ -1,0 +1,19 @@
+[
+{
+"modid": "spectrumblue",
+"name": "Spectrum Blue",
+"description": "todo",
+"version": "0.1",
+"credits": "Created by doopaderp",
+"logoFile": "",
+"mcversion": "1.8",
+"url": "",
+"updateUrl": "",
+"authors": [ "doopaderp" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+"mod_MinecraftForge"
+]
+}
+]

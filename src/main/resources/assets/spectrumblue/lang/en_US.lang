@@ -1,0 +1,10 @@
+item.spectrumblue:MagnoSeed.name=Magno Seed
+item.spectrumblue:MagnoferricIngot.name=Magnoferric Ingot
+item.spectrumblue:MagnoDust.name=Magno Dust
+
+
+tile.spectrumblue:MagnoferricBlock.name=Magnoferric Block
+tile.spectrumblue:MagnoSeedOre.name=MagnoSeed Ore
+tile.spectrumblue:MagneticOrganizer.name=Magnetic Organizer
+
+itemGroup.tabSpectrumBlue=Spectrum Blue

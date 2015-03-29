@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "spectrumblue:blocks/MachineBot",
+    "up": "spectrumblue:blocks/MachineTop",
+    "north": "spectrumblue:blocks/MagneticOrganizerFace",
+    "south": "spectrumblue:blocks/MachineSide",
+    "west": "spectrumblue:blocks/MachineSide",
+    "east": "spectrumblue:blocks/MachineSide",
+  "particle": "blocks/lapis_block"
+  }
+}
